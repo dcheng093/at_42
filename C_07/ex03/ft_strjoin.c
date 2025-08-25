@@ -6,7 +6,7 @@
 /*   By: dcheng <dcheng@student.42kl.edu.my>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/25 23:36:42 by dcheng            #+#    #+#             */
-/*   Updated: 2025/08/25 23:42:12 by dcheng           ###   ########.fr       */
+/*   Updated: 2025/08/26 00:06:47 by dcheng           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,7 +61,6 @@ int	count_all(int size, char **strs, char *sep)
 	return (total);
 }
 
-
 char	*ft_strjoin(int size, char **strs, char *sep)
 {
 	int	i;
@@ -86,7 +85,7 @@ char	*ft_strjoin(int size, char **strs, char *sep)
 	return (join);
 }
 
-int	main(void)
+/*int	main(void)
 {
     char *strs[] = {"Hello", "world", "this", "is", "a", "test"};
 	int size = 6;
@@ -101,4 +100,4 @@ int	main(void)
 	}
 	printf("New string: %s\n", all_together);
 	free(all_together);
-}
+}*/

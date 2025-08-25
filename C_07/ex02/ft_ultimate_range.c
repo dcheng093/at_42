@@ -6,7 +6,7 @@
 /*   By: dcheng <dcheng@student.42kl.edu.my>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/25 23:32:06 by dcheng            #+#    #+#             */
-/*   Updated: 2025/08/25 23:33:51 by dcheng           ###   ########.fr       */
+/*   Updated: 2025/08/26 00:06:39 by dcheng           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,6 @@ int	ft_ultimate_range(int **range, int min, int max)
 
 	i = 0;
 	array = (int *) malloc(sizeof(int) * ((max - min) + 1));
-
 	if (min >= max)
 	{
 		array = NULL;
@@ -34,7 +33,6 @@ int	ft_ultimate_range(int **range, int min, int max)
 			i++;
 			min++;
 		}
-
 		*range = array;
 		return (i);
 	}
@@ -42,7 +40,7 @@ int	ft_ultimate_range(int **range, int min, int max)
 		return (-1);
 }
 
-int	main(void)
+/*int	main(void)
 {
 	int	min = -10;
 	int	max = 10;
@@ -58,4 +56,4 @@ int	main(void)
 		i++;
 	}
 	free(range);
-}
+}*/

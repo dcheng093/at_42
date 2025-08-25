@@ -6,7 +6,7 @@
 /*   By: dcheng <dcheng@student.42kl.edu.my>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/24 18:27:52 by dcheng            #+#    #+#             */
-/*   Updated: 2025/08/25 23:35:24 by dcheng           ###   ########.fr       */
+/*   Updated: 2025/08/26 00:03:55 by dcheng           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,10 +36,10 @@ char	*ft_strdup(char *src)
 	return (dup);
 }
 
-int	main(void)
+/*int	main(void)
 {
 	char	*src = "poop";
 
 	printf("my: %s\n", ft_strdup(src));
 	printf("or: %s\n", strdup(src));
-}
+}*/
